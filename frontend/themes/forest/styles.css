@@ -1,1 +1,17 @@
 @import url('./main-layout.css');
+
+.header{
+	background-image: url("../images/header.jpg");
+	}
+	
+.mainPanel{
+	 background-color: lightgrey;
+	 
+}
+
+.panel{
+	background-color: white;
+}
+.menuBar{
+	background-color: rgb(0, 255, 64);
+}
