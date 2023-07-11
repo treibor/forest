@@ -46,7 +46,7 @@
     <dependencies>
         <dependency>
             <groupId>com.vaadin</groupId>
-            <!-- Replace artifactId with vaadin-core to use only free components -->
+            <!-- Replace artifactId with vaadin-core to use only free components, ok -->
             <artifactId>vaadin</artifactId>
 		</dependency>
         <dependency>
