@@ -78,7 +78,6 @@ public class HomeView extends HorizontalLayout {
 		config.setEditorToolBar(toolbar);
 		config.setPlaceHolder("Here is a place holder");
 		config.setUILanguage(Language.en_gb);
-		
 		decoupledEditor.setSizeFull();
 		Button a =new Button("Try");
 		a.addClickListener(e->abc());
@@ -90,7 +89,7 @@ public class HomeView extends HorizontalLayout {
 	}
 	
 	public void abc() {
-		System.out.print(decoupledEditor.getValue());
+		//System.out.print(decoupledEditor.getValue());
 	}
 	public Component centrePanelMiddle() {
 		VerticalLayout left=new VerticalLayout();
